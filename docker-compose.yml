@@ -1,0 +1,18 @@
+version: "3.9"
+services:
+  graphql_api:
+    build: .
+    ports:
+      - "80:3000"
+    links:
+      - api_db
+    environment:
+      - MONGO_URI=mongodb://api_db:27017/ABE_Aflevering_2
+      - PORT=3000
+  api_db:
+    container_name: api_db
+    image: mongo
+    volumes:
+      - ./db:/data/db
+    ports:
+      - "27017:27017"
