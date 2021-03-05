@@ -6,6 +6,8 @@ services:
       - "80:3000"
     links:
       - api_db
+    volumes:
+      - ./src:/usr/app/
     environment:
       - MONGO_URI=mongodb://api_db:27017/ABE_Aflevering_2
       - PORT=3000

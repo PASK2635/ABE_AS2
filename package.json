@@ -13,33 +13,33 @@
     "name": "Gruppe 33"
   },
   "devDependencies": {
-    "@types/chai": "^4.2.2",
+    "@types/chai": "^4.2.15",
     "@types/cookie-parser": "^1.4.2",
     "@types/errorhandler": "^0.0.32",
-    "@types/lodash": "^4.14.138",
+    "@types/lodash": "^4.14.168",
     "@types/mocha": "^5.2.7",
-    "@types/mongoose": "^5.5.17",
-    "chai": "^4.2.0",
-    "mocha": "^6.2.0",
-    "mongodb-memory-server": "^5.2.5",
-    "nodemon": "^1.19.2",
-    "prettier": "^1.18.2",
-    "rimraf": "^3.0.0",
-    "ts-node": "^8.4.1",
-    "tslint": "^5.20.0",
-    "tslint-config-airbnb": "^5.11.1",
+    "@types/mongoose": "^5.10.3",
+    "chai": "^4.3.3",
+    "mocha": "^6.2.3",
+    "nodemon": "^1.19.4",
+    "prettier": "^1.19.1",
+    "rimraf": "^3.0.2",
+    "ts-node": "^8.10.2",
+    "tslint": "^5.20.1",
+    "tslint-config-airbnb": "^5.11.2",
     "tslint-config-prettier": "^1.18.0",
-    "typescript": "^3.6.3"
+    "typescript": "^3.9.9"
   },
   "dependencies": {
-    "@godaddy/terminus": "^4.2.0",
-    "apollo-server-express": "^2.9.3",
-    "cookie-parser": "^1.4.4",
+    "@godaddy/terminus": "^4.6.0",
+    "apollo-server-express": "^2.21.0",
+    "cookie-parser": "^1.4.5",
     "errorhandler": "^1.5.1",
     "express": "^4.17.1",
-    "graphql-dataloader-mongoose": "^1.0.0",
-    "mongoose": "^5.7.1",
-    "winston": "^3.2.1",
-    "winston-daily-rotate-file": "^4.1.0"
+    "graphql": "^15.5.0",
+    "graphql-dataloader-mongoose": "^1.0.1",
+    "mongoose": "^5.11.18",
+    "winston": "^3.3.3",
+    "winston-daily-rotate-file": "^4.5.0"
   }
 }
